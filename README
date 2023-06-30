@@ -1,6 +1,5 @@
-How to use :
-
 docker build -t hamza/mysite:1.0 . 
 helm upgrade --install myhelm helm/
-#docker run -dit -p 8080:8080 --name myapp hamza/myapp:1.0
 kubectl port-forward myhelm-XXXXXX 8080:8080
+
+Visit localhost:8080/homepage
